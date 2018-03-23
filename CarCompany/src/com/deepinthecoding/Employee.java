@@ -9,6 +9,7 @@ public class Employee {
 
     // Default constructor
     public Employee() {
+    this("PP","Fresher",1);
     }
 
     public Employee(String name, String title, int id) {
