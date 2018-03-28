@@ -6,7 +6,7 @@ public class Fresher extends Employee {
         super(name, "Fresher", id);
     }
 
-    public void forwardCall() {
-
+    public void forwardCall(Object customer) {
+        System.out.println("Call couldnt be handled, being forwarded to the Technical Lead.");
     }
 }

@@ -19,8 +19,8 @@ public class Employee {
         this.id = id;
     }
 
-    public void recieveCall(int customerId) {
-        System.out.println(this.name + " has answered call from " + customerId);
+    public void recieveCall(Object customer) {
+        System.out.println(this.name + " has answered call from " + customer);
     }
 
     public void closeCall() {
